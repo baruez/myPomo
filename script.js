@@ -76,7 +76,7 @@ timerStart = () => {
     counter--;
     display()    
   }
-  setIntVar = setInterval(secondLess, 100);
+  setIntVar = setInterval(secondLess, 1000);
   state = "live";
 }
 
